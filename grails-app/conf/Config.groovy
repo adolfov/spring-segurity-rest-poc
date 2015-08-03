@@ -137,6 +137,7 @@ grails.plugin.springsecurity.filterChain.chainMap = [
 
 grails.plugin.springsecurity.rest.login.active = true
 grails.plugin.springsecurity.rest.login.endpointUrl = '/auth/login'
+grails.plugin.springsecurity.rest.logout.endpointUrl = '/auth/logout'
 grails.plugin.springsecurity.rest.login.useJsonCredentials = true
 grails.plugin.springsecurity.rest.login.usernamePropertyName = 'username'
 grails.plugin.springsecurity.rest.login.passwordPropertyName = 'password'
